@@ -11,7 +11,7 @@ const buildElectron = async () => {
         path.join(__dirname, 'electron/main.ts'),
         path.join(__dirname, 'electron/preload.ts'),
       ],
-      bundle: false,
+      bundle: true,
       outdir: path.join(__dirname, 'dist-electron'),
       platform: 'node',
       target: 'node18',
