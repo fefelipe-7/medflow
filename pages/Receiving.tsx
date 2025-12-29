@@ -1,1 +1,0 @@
-export { ReceivingPage as Receiving } from './receiving/ReceivingPage';

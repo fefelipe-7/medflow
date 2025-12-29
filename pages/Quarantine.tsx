@@ -1,1 +1,0 @@
-export { QuarantinePage as Quarantine } from './quarantine/QuarantinePage';
